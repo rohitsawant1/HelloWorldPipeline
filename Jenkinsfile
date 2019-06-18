@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run project') { 
             steps {
-               sh "Java HelloWorldPipeline2.java" 
+               sh "Java HelloWorldPipeline2" 
                sh "ls"
                sh "pwd"
             }
