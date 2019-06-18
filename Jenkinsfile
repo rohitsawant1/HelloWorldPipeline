@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Clone project') { 
+        stage('Run project') { 
             steps {
                sh "Java HelloWorldPipeline2.java" 
                sh "ls"
